@@ -1,0 +1,21 @@
+:root{
+    --background-color:#f1f5f9;
+    --font-color:#0f172a;
+    --btn-primary:#334155;
+    /* --btn-hover:#e2e8f0; */
+
+    /* font spacing */
+    --xs:8px;
+    --sm:16px;
+    --md:24px;
+    --lg:32px;
+    --xl:40px;
+    --xxl:64px;
+
+    /* font weight */
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 900;
+}

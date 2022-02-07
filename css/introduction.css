@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Murecho&display=swap');
+@import url(/css/utilities.css);
+
+
+body{
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: 'Murecho', sans-serif;
+    /* width: 80%;
+    margin: auto; */
+    
+}
+
+.container{
+    /* display: block; */
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.nav-bar{
+    text-align: center;
+    font-size: var(--lg);
+    /* color: var(--font-color); */
+}
+
+.main-heading{
+    text-align:center;
+    padding: var(--sm);
+    font-size: var(--md);
+}
+
+.main-sub-heading{
+    text-align: center;
+    font-weight: var(--bold);
+    font-size: var(--xl);
+    padding-top: var(--md);
+}
+
+.main-description{
+    padding: var(--sm) var(--md); 
+    margin: var(--lg);
+    font-size: var(--md);
+}
+
+.button-box{
+    display: flex;
+    /* padding-top: var(--lg); */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.btn{
+    margin: var(--sm);
+    padding: var(--xs) var(--sm) ;
+    border-radius: var(--xs) ;
+    /* max-width: 300px; */
+
+}
+
+
+.btn-primary{
+    background-color: var(--btn-primary);
+    color: whitesmoke;
+}
