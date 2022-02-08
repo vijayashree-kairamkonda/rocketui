@@ -70,3 +70,15 @@ a{
     background-color: var(--btn-primary);
     color: whitesmoke;
 }
+
+/* introduction page css */
+
+.container{
+    display: flex;
+    padding-top: var(--xxl);
+}
+
+.component-list{
+    list-style: none;
+    padding:var(--xs) ;
+}
